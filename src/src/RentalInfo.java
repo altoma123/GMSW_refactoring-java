@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class RentalInfo {
 
-  public String statement(Customer customer) {
+  public static String statement(Customer customer) {
     HashMap<String, Movie> movies = new HashMap();
     movies.put("F001", new Movie("You've Got Mail", MovieCode.REGULAR));
     movies.put("F002", new Movie("Matrix", MovieCode.REGULAR));
